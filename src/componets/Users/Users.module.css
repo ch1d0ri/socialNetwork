@@ -1,0 +1,22 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+}
+
+.itemUser {
+    display: flex;
+    align-items: center;
+
+}
+
+.infoUser {
+    padding: 7px;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+span {
+    padding-left: 3px;
+}

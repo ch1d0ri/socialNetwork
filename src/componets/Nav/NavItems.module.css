@@ -1,0 +1,44 @@
+.nav{
+    grid-area: n;
+    background-color: #333F48;
+    padding:30px;
+
+   }
+.list{
+    padding-bottom: 7px;
+}
+   .item {
+       text-decoration: none;
+       color: #c2c2c2;
+       transition: 0.1s linear;
+   }
+   .item:hover{
+       color: #47b2af;
+
+   }
+
+   .active{
+       color: #26c4be;
+       text-decoration: none;
+
+   }
+.friendsNav{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.friendsItem{
+    display:flex;
+
+    align-items: center;
+    padding-bottom:5px;
+}
+.friendsItem img{
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.friendsItemImg{
+    padding-right:5px;
+}
+

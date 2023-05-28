@@ -1,0 +1,12 @@
+
+.content{
+
+    grid-area:c;
+    background-color:	rgb(231, 230, 230);
+
+}
+.content img{
+    width: 100%;
+    object-fit:cover;
+    height: 250px;
+}

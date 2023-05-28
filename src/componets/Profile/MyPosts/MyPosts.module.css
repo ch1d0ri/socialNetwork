@@ -1,0 +1,14 @@
+
+.item{
+    color:rgb(49, 49, 49);
+    margin-top:20px;
+}
+.item img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.postsBlock{
+    padding:10px;
+}

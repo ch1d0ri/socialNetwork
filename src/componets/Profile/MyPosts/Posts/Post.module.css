@@ -1,0 +1,10 @@
+
+.item{
+    color:rgb(6, 124, 95);
+}
+.item img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 30px;
+    object-fit: cover;
+}
