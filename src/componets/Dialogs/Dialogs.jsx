@@ -15,6 +15,7 @@ const Dialogs = (props) => {
         let body = takeMessage.current.value
         props.receiveMessage(body)
     }
+    alert(props.isAuth)
     return (
         <div className={style.dialogs}>
             <div className={style.dialogsItems}>

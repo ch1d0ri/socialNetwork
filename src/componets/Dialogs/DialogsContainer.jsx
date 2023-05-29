@@ -9,7 +9,8 @@ let mapStateToProps = (state) => {
 
     return {
         dialogsPage: state.dialogsPage,
-        sendMes: state.dialogsPage.sendMes
+        sendMes: state.dialogsPage.sendMes,
+        isAuth: state.auth.isAuth
     }
 }
 let mapDispatchToProps = (dispatch) => {
